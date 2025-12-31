@@ -1,0 +1,28 @@
+{
+  "name": "sfranalyticsintegration",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Query Data from SFR Analytics and send it to hubspot",
+  "main": "SFR_ANALYTICS",
+  "scripts": {
+    "start": "node src/sfr_analytics.js",
+    "test": "node src/sfr_analytics.js"
+  },
+  "keywords": [
+    "SFR",
+    "Ananlytics",
+    "HUBSPOT",
+    "Server",
+    "Integration"
+  ],
+  "author": "Mohammad Saddam",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "node-cron": "^4.2.1",
+    "winston": "^3.18.3",
+    "winston-daily-rotate-file": "^5.0.0"
+  }
+}
